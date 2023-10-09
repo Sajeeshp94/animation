@@ -1,0 +1,39 @@
+
+.circle1{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 3px solid rgb(71, 6, 6);
+    border-top: 3px solid rgb(248, 173, 60);
+    animation:ani 3s linear infinite;
+    margin: auto;
+    margin-top: 220px;
+
+    
+}
+.circle2{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50% ;
+    border: 3px solid rgb(25, 96, 228);
+    border-top: 3px solid rgb(250, 84, 19);
+    animation: ani 2s linear infinite;
+}
+body{
+    background-color: black;
+    height: 100%;
+
+}
+ @keyframes ani{
+    /* 0%{
+        transform: rotate(0deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+}
